@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -74,19 +74,19 @@
 					"presentation_rect" : [ 0.0, 0.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 100.0,
-							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "Dry/Wet",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "drywet[1]",
-							"parameter_initial_enable" : 1
+							"parameter_longname" : "Dry/Wet",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 100.0,
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
 ,
-					"varname" : "drywet"
+					"varname" : "Dry/Wet"
 				}
 
 			}
@@ -94,7 +94,7 @@
 				"box" : 				{
 					"comment" : "ch2",
 					"id" : "obj-16",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -106,7 +106,7 @@
 				"box" : 				{
 					"comment" : "Wet ch2",
 					"id" : "obj-14",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -131,7 +131,7 @@
 				"box" : 				{
 					"comment" : "Dry Ch2",
 					"id" : "obj-13",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -228,7 +228,7 @@
 				"box" : 				{
 					"comment" : "ch1",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -240,7 +240,7 @@
 				"box" : 				{
 					"comment" : "Wet ch1",
 					"id" : "obj-3",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -253,7 +253,7 @@
 				"box" : 				{
 					"comment" : "Dry ch1",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -290,7 +290,7 @@
 				"box" : 				{
 					"comment" : "dry (0.0) ~ wet (1.0)",
 					"id" : "obj-41",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -460,7 +460,17 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-2" : [ "Dry/Wet", "Dry/Wet", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
