@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 513.0, 224.0, 1345.0, 961.0 ],
+		"rect" : [ 441.0, 619.0, 1009.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -257,7 +257,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 339.0, 118.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.0, 5.5, 34.0, 63.0 ],
+					"presentation_rect" : [ 233.0, 2.0, 30.0, 67.5 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "close", "open" ],
@@ -271,6 +271,8 @@
 
 					}
 ,
+					"spacing_x" : 3.0,
+					"spacing_y" : 15.0,
 					"varname" : "enable"
 				}
 
@@ -374,8 +376,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 261.5, 706.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.333333333333371, 47.0, 186.0, 22.0 ],
-					"text" : "Loop"
+					"presentation_rect" : [ 41.333333333333371, 47.0, 186.0, 22.0 ]
 				}
 
 			}
